@@ -13,30 +13,34 @@ body {
   justify-content: space-around;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.home-buttons {
-  width: 155px;
-  height: 45px;
-  left: 82px;
-  top: 271px;
-}
-
-.guest-buttons {
-  width: 155px;
-  height: 45px;
-  left: 337px;
-  top: 271px;
-}
-
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   text-align: center;
   color: #ffff;
+  margin: 10px;
+}
+
+h4 {
+  font-family: CursedTimer;
+  color: #f94f6d;
+  font-size: 90px;
+  text-align: center;
+  background: #080000;
+  border: 2px solid #080000;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
 }
 
 button {
